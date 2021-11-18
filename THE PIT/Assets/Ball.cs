@@ -10,6 +10,9 @@ public class Ball : Enemy
     public float attackRadius;
     public Transform homePosition;
 
+    public float attackSpeed;
+    public float attackDamage;
+    float canAttack;
     public Rigidbody2D rd;
     //public Animator anima;
 
@@ -18,7 +21,6 @@ public class Ball : Enemy
     {
 
         target = GameObject.FindWithTag("Player").transform;
-        currentState = EnemyState.idle;
         rd = GetComponent<Rigidbody2D>();
         //anima = GetComponent<Animator>();
     }
@@ -31,24 +33,34 @@ public class Ball : Enemy
 
     void checkDistance()
     {
-        if (Vector3.Distance(target.position, transform.position) <= chaseRadius && Vector3.Distance(target.position, transform.position) > attackRadius)
+        if (Vector3.Distance(target.position, transform.position)  <= chaseRadius && Vector3.Distance(target.position, transform.position) > attackRadius)
         {
-            if (currentState == EnemyState.idle || currentState == EnemyState.walk)
-            {
-                Vector3 temp = Vector3.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
-
-                rd.MovePosition(temp);
-                //changeAnim(temp - transform.position);
-                //ChangState(EnemyState.walk);
-                //anima.SetBool("walk", true);
-
-            }
-
+      
+                transform.position = Vector3.MoveTowards(transform.position, target.position, speed * Time.deltaTime);                                    
         }
-        //else
-        //{
-        //    anima.SetBool("walk", false);
-        //}
+    
 
     }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            canAttack = attackSpeed;
+            if (attackSpeed <= canAttack)
+            {
+
+                other.gameObject.GetComponent<Health>().takedamage(attackDamage);
+                canAttack = 0f;
+                Debug.Log("Attack");
+                
+            }
+            else
+            {
+                canAttack += Time.deltaTime;
+            }
+        }
+        
+    }
+  
 }

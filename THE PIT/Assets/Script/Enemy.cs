@@ -15,15 +15,8 @@ public class Enemy : MonoBehaviour
     public int maxHp;
     public float speed;
 
-    public Transform attackPoint;
-    public float attackSpeed;
-    public float attackDamage;
-    private float canAttack;
     int currentHP;
 
-    private Vector3 startingPosition;
-    private Vector3 roamPosition;
-    
 
     // Start is called before the first frame update
     void Awake()
@@ -49,6 +42,11 @@ public class Enemy : MonoBehaviour
 
         Debug.Log("Die");
         this.gameObject.SetActive(false);
+    }
+
+    public void attackPlayer()
+    {
+
     }
 
    
