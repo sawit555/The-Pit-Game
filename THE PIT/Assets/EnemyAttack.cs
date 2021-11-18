@@ -5,6 +5,8 @@ using UnityEngine;
 public class EnemyAttack : Enemy
 {
     private float canAttack;
+    public float attackSpeed;
+    public float attackDamage;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,17 +22,7 @@ public class EnemyAttack : Enemy
     {
         if (other.gameObject.tag == "Player")
         {
-            if (attackSpeed <= canAttack)
-            {
-
-                other.gameObject.GetComponent<Health>().takedamage(attackDamage);
-                canAttack = 0f;
-                Debug.Log("Attac");
-            }
-            else
-            {
-                canAttack += Time.deltaTime;
-            }
+           
         }
     }
 

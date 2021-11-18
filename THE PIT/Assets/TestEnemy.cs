@@ -4,45 +4,58 @@ using UnityEngine;
 
 public class TestEnemy : Enemy
 {
+    public Transform homePosition;
     public Transform target;
     public float chaseRadius;
-    public float stopRadius;
     public float attackRadius;
-    private float canAttack;
-    public Transform homePosition;
 
+    public float attackSpeed;
+    public float attackDamage;
+    public float timer;
 
     public Rigidbody2D rd;
     public Animator anima;
 
+    private bool cooling;
+    private bool attack;
+    private float intimer;
+
+
+    private void Awake()
+    {
+        intimer = timer;
+    }
     void Start()
     {
         target = GameObject.FindWithTag("Player").transform;
         currentState = EnemyState.idle;
         rd = GetComponent<Rigidbody2D>();
         anima = GetComponent<Animator>();
-
+        
     }
 
     // Update is called once per frame
     void Update()
     {
+        Debug.Log("cooling = "+cooling);
         attackDistance();
         checkDistance();
+
     }
 
     void checkDistance()
     {
+
         if (Vector3.Distance(target.position, transform.position) <= chaseRadius && Vector3.Distance(target.position, transform.position) > attackRadius)
         {
             if(currentState == EnemyState.idle || currentState == EnemyState.walk)
             {
             Vector3 temp = Vector3.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
 
-            rd.MovePosition(temp);
-            changeAnim(temp - transform.position);
-            ChangState(EnemyState.walk);
-            anima.SetBool("walk", true);    
+                rd.MovePosition(temp);
+                changeAnim(temp - transform.position);
+                ChangState(EnemyState.walk);
+                anima.SetBool("walk", true);    
 
             }
             
@@ -56,39 +69,69 @@ public class TestEnemy : Enemy
         
     }
 
+    void Cooldown()
+    {
+        timer -= Time.deltaTime;
+        Debug.Log("COOLDOWN");
+     
+        if (timer <= 0 && cooling && attack == true)
+        {
+            cooling = false;
+            timer = intimer;
+        }
+    }
+
+    void Attack()
+    {
+        timer = intimer;
+        attack = true;
+
+        anima.SetBool("walk", false);
+        anima.SetBool("attack", true);
+        Debug.Log("BOOOOM");
+        cooling = true;
+
+    }
+
+
+
     public void attackDistance()
     {
         if (Vector3.Distance(target.position, transform.position) <= attackRadius)
         {
-
-            if (currentState == EnemyState.idle || currentState == EnemyState.walk)
+            ChangState(EnemyState.attack);
+            if(currentState == EnemyState.attack && cooling == false)
             {
-                if(attackSpeed <= canAttack)
-                {
-                    ChangState(EnemyState.attack);
-                    if(currentState == EnemyState.attack)
-                    {
-                        anima.SetBool("attack", true);
-                        currentState = EnemyState.idle;
-                    }
-               
-                    canAttack = 0f;
-                    anima.SetBool("walk", false);
-                    
-                }
-                else
-                {
-                    canAttack += Time.deltaTime;
-                }
+
+            Attack();
             }
+            if (cooling)
+            {
+                Cooldown();
+                anima.SetBool("attack", false);
+
+            }
+
+
         }
+       
+
+        //canAttack = 0f;
+        //anima.SetBool("walk", false);
+
+
+
+
+
         else
         {
             ChangState(EnemyState.walk);
-            anima.SetBool("attack", false);
+            //anima.SetBool("attack", false);
         }
 
     }
+
+    //Change enemy state to newstate
     private void ChangState(EnemyState newState)
     {
         if(currentState != newState)
@@ -128,10 +171,11 @@ public class TestEnemy : Enemy
         }
     }
 
-    IEnumerator delay()
+    public void TriggerCooling()
     {
-        yield return new WaitForSeconds(2f);
+        cooling = true;
     }
 
-  
+
+
 }
