@@ -1,0 +1,4368 @@
+fileFormatVersion: 2
+guid: b269cf464305387489c515c885c31cc1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4420781712680604251
+    second: outside_0
+  - first:
+      213: 49636420498249401
+    second: outside_1
+  - first:
+      213: 3345104967112980269
+    second: outside_2
+  - first:
+      213: -8166560988785266386
+    second: outside_3
+  - first:
+      213: 668085165876248341
+    second: outside_4
+  - first:
+      213: 7448093964624488320
+    second: outside_5
+  - first:
+      213: 6854961030724020257
+    second: outside_6
+  - first:
+      213: -4330307822023193192
+    second: outside_7
+  - first:
+      213: 3266471548449317020
+    second: outside_8
+  - first:
+      213: -3459801910540878644
+    second: outside_9
+  - first:
+      213: 1270754036233150121
+    second: outside_10
+  - first:
+      213: 373160905587024697
+    second: outside_11
+  - first:
+      213: 878383716249525807
+    second: outside_12
+  - first:
+      213: -3915009212303169145
+    second: outside_13
+  - first:
+      213: 7279228597634237346
+    second: outside_14
+  - first:
+      213: 6781915423654897766
+    second: outside_15
+  - first:
+      213: -2876789319758192082
+    second: outside_16
+  - first:
+      213: -8365037757626908415
+    second: outside_17
+  - first:
+      213: 3078083171481001833
+    second: outside_18
+  - first:
+      213: -5016337292052124148
+    second: outside_19
+  - first:
+      213: -643851006021211844
+    second: outside_20
+  - first:
+      213: 1774454455449348288
+    second: outside_21
+  - first:
+      213: -3317994092650872629
+    second: outside_22
+  - first:
+      213: 233911118108648223
+    second: outside_23
+  - first:
+      213: -4570876870155675656
+    second: outside_24
+  - first:
+      213: 4759257921745646164
+    second: outside_25
+  - first:
+      213: -6823567829378059404
+    second: outside_26
+  - first:
+      213: -3507304515200029717
+    second: outside_27
+  - first:
+      213: 6214755967157264358
+    second: outside_28
+  - first:
+      213: -3959029754525331181
+    second: outside_29
+  - first:
+      213: 7000939555168093222
+    second: outside_30
+  - first:
+      213: -4392105235858078625
+    second: outside_31
+  - first:
+      213: -3281395310733160101
+    second: outside_32
+  - first:
+      213: -1090499482701498209
+    second: outside_33
+  - first:
+      213: -6173238068711175255
+    second: outside_34
+  - first:
+      213: 4716682574407233318
+    second: outside_35
+  - first:
+      213: 6806007241276498400
+    second: outside_36
+  - first:
+      213: -1599587214927587660
+    second: outside_37
+  - first:
+      213: -4727032903912917522
+    second: outside_38
+  - first:
+      213: 6726494591519249543
+    second: outside_39
+  - first:
+      213: 1697282779408965922
+    second: outside_40
+  - first:
+      213: 8549061886150995858
+    second: outside_41
+  - first:
+      213: 2099432081110022361
+    second: outside_42
+  - first:
+      213: -6620422905704051254
+    second: outside_43
+  - first:
+      213: 1386397020128826986
+    second: outside_44
+  - first:
+      213: -2754323164688166415
+    second: outside_45
+  - first:
+      213: 3500619878226362609
+    second: outside_46
+  - first:
+      213: -985099857029816442
+    second: outside_47
+  - first:
+      213: -6616366646689437210
+    second: outside_48
+  - first:
+      213: 8663714039772383693
+    second: outside_49
+  - first:
+      213: 2350893314323727992
+    second: outside_50
+  - first:
+      213: 3611086890482470896
+    second: outside_51
+  - first:
+      213: -8284602020704091924
+    second: outside_52
+  - first:
+      213: -8283589288970600657
+    second: outside_53
+  - first:
+      213: 1874855587592561343
+    second: outside_54
+  - first:
+      213: -286584718520995775
+    second: outside_55
+  - first:
+      213: -7499267196851941568
+    second: outside_56
+  - first:
+      213: -8052923964773527772
+    second: outside_57
+  - first:
+      213: 3432670465250184886
+    second: outside_58
+  - first:
+      213: 7188554474991216189
+    second: outside_59
+  - first:
+      213: -751922989801550908
+    second: outside_60
+  - first:
+      213: 8634180152165340515
+    second: outside_61
+  - first:
+      213: 6523821043855371531
+    second: outside_62
+  - first:
+      213: 5816780161842512695
+    second: outside_63
+  - first:
+      213: -8950287035646146908
+    second: outside_64
+  - first:
+      213: -4419261026924124756
+    second: outside_65
+  - first:
+      213: -5726177447873246867
+    second: outside_66
+  - first:
+      213: -6608128645678646234
+    second: outside_67
+  - first:
+      213: -3398453615811790760
+    second: outside_68
+  - first:
+      213: -3173919122836848163
+    second: outside_69
+  - first:
+      213: -196721520164850834
+    second: outside_70
+  - first:
+      213: 472860398923315153
+    second: outside_71
+  - first:
+      213: 2703855191334859366
+    second: outside_72
+  - first:
+      213: -2177077457279878047
+    second: outside_73
+  - first:
+      213: 7599708828155094192
+    second: outside_74
+  - first:
+      213: -6356764431455284264
+    second: outside_75
+  - first:
+      213: 8175266035877353086
+    second: outside_76
+  - first:
+      213: 3292764383735049740
+    second: outside_77
+  - first:
+      213: -6899501615972834333
+    second: outside_78
+  - first:
+      213: 6700260818725178987
+    second: outside_79
+  - first:
+      213: 5466357210963789875
+    second: outside_80
+  - first:
+      213: -1467442599103045283
+    second: outside_81
+  - first:
+      213: 7179765085728242782
+    second: outside_82
+  - first:
+      213: -4723476442337545548
+    second: outside_83
+  - first:
+      213: 2817427878076785363
+    second: outside_84
+  - first:
+      213: 8845994230144404188
+    second: outside_85
+  - first:
+      213: -6515994366317614779
+    second: outside_86
+  - first:
+      213: -6499465767104578394
+    second: outside_87
+  - first:
+      213: 2240386312207419764
+    second: outside_88
+  - first:
+      213: 3512912578132910952
+    second: outside_89
+  - first:
+      213: 4545750730759487573
+    second: outside_90
+  - first:
+      213: -442740834708646280
+    second: outside_91
+  - first:
+      213: 7201921211702738816
+    second: outside_92
+  - first:
+      213: 4602480255276263508
+    second: outside_93
+  - first:
+      213: -7771430562198595225
+    second: outside_94
+  - first:
+      213: 1971180433997336128
+    second: outside_95
+  - first:
+      213: 2479418733914606841
+    second: outside_96
+  - first:
+      213: -6480558796488203366
+    second: outside_97
+  - first:
+      213: 765406747168864937
+    second: outside_98
+  - first:
+      213: -9213456848749411604
+    second: outside_99
+  - first:
+      213: 8769827789089799018
+    second: outside_100
+  - first:
+      213: 3410154949312577533
+    second: outside_101
+  - first:
+      213: -6587043932168347350
+    second: outside_102
+  - first:
+      213: 7155275992147996887
+    second: outside_103
+  - first:
+      213: -5523404503783508057
+    second: outside_104
+  - first:
+      213: -6535199938272828537
+    second: outside_105
+  - first:
+      213: -8475483171254609176
+    second: outside_106
+  - first:
+      213: 4899224775949909999
+    second: outside_107
+  - first:
+      213: 5993161101297437917
+    second: outside_108
+  - first:
+      213: -1535434004119456065
+    second: outside_109
+  - first:
+      213: 2524688313746350613
+    second: outside_110
+  - first:
+      213: -790392566111494048
+    second: outside_111
+  - first:
+      213: 286927887885449292
+    second: outside_112
+  - first:
+      213: 17843674033123794
+    second: outside_113
+  - first:
+      213: -8648362207089605293
+    second: outside_114
+  - first:
+      213: -1328269555099225571
+    second: outside_115
+  - first:
+      213: 320151474356286364
+    second: outside_116
+  - first:
+      213: -9015113319670753738
+    second: outside_117
+  - first:
+      213: 6731143261655613637
+    second: outside_118
+  - first:
+      213: 2159559111696139336
+    second: outside_119
+  - first:
+      213: 6570712022569205089
+    second: outside_120
+  - first:
+      213: 7648181252111844707
+    second: outside_121
+  - first:
+      213: 4491174774835291138
+    second: outside_122
+  - first:
+      213: 1181975736900667966
+    second: outside_123
+  - first:
+      213: -9067014420920349022
+    second: outside_124
+  - first:
+      213: -8896408714286749354
+    second: outside_125
+  - first:
+      213: 3938970302979554797
+    second: outside_126
+  - first:
+      213: 1090290053579861795
+    second: outside_127
+  - first:
+      213: -8703816925223897884
+    second: outside_128
+  - first:
+      213: -4821002098330945186
+    second: outside_129
+  - first:
+      213: -5863563589509532373
+    second: outside_130
+  - first:
+      213: 3233879829815944250
+    second: outside_131
+  - first:
+      213: -95218347053548597
+    second: outside_132
+  - first:
+      213: 7706398472070550282
+    second: outside_133
+  - first:
+      213: -5898750407077197909
+    second: outside_134
+  - first:
+      213: -8638300519012372911
+    second: outside_135
+  - first:
+      213: 2266857105959010240
+    second: outside_136
+  - first:
+      213: 143340375940321821
+    second: outside_137
+  - first:
+      213: 8635904015467582618
+    second: outside_138
+  - first:
+      213: -309742679407729220
+    second: outside_139
+  - first:
+      213: 7288802011303787879
+    second: outside_140
+  - first:
+      213: -1168047895193626979
+    second: outside_141
+  - first:
+      213: -110733413949955183
+    second: outside_142
+  - first:
+      213: 2727601738206530641
+    second: outside_143
+  - first:
+      213: -4685564899218281214
+    second: outside_144
+  - first:
+      213: 4277035358511813220
+    second: outside_145
+  - first:
+      213: -6601153862978698063
+    second: outside_146
+  - first:
+      213: -8447490327855276277
+    second: outside_147
+  - first:
+      213: 8268837903329365611
+    second: outside_148
+  - first:
+      213: 3241351290228826780
+    second: outside_149
+  - first:
+      213: 7576973360756201713
+    second: outside_150
+  - first:
+      213: -5178821792550194721
+    second: outside_151
+  - first:
+      213: -6976970392254264383
+    second: outside_152
+  - first:
+      213: -3545124915806853874
+    second: outside_153
+  - first:
+      213: -4797466695132921309
+    second: outside_154
+  - first:
+      213: -2748590679528683032
+    second: outside_155
+  - first:
+      213: 8545538813149308040
+    second: outside_156
+  - first:
+      213: -1991369702583116586
+    second: outside_157
+  - first:
+      213: -4518588136026934253
+    second: outside_158
+  - first:
+      213: 3014628310172128043
+    second: outside_159
+  - first:
+      213: -6047460606137757868
+    second: outside_160
+  - first:
+      213: -3921290346469495671
+    second: outside_161
+  - first:
+      213: 7501328310120646831
+    second: outside_162
+  - first:
+      213: 3808566160572688179
+    second: outside_163
+  - first:
+      213: 1941280535860445103
+    second: outside_164
+  - first:
+      213: 7217729577472160417
+    second: outside_165
+  - first:
+      213: -3465440553851791772
+    second: outside_166
+  - first:
+      213: 4842635522197360631
+    second: outside_167
+  - first:
+      213: -6454696618651121483
+    second: outside_168
+  - first:
+      213: 2322783677229843238
+    second: outside_169
+  - first:
+      213: -6338051446347477133
+    second: outside_170
+  - first:
+      213: 7715209722407021861
+    second: outside_171
+  - first:
+      213: -77496437832379166
+    second: outside_172
+  - first:
+      213: -636753658864054505
+    second: outside_173
+  - first:
+      213: -332626625451578537
+    second: outside_174
+  - first:
+      213: 5410524399962236391
+    second: outside_175
+  - first:
+      213: -4324593270763986964
+    second: outside_176
+  - first:
+      213: -8044552980134611556
+    second: outside_177
+  - first:
+      213: -6511496131624837723
+    second: outside_178
+  - first:
+      213: -7221904637405497437
+    second: outside_179
+  - first:
+      213: 4358307827122509632
+    second: outside_180
+  - first:
+      213: -1479880168652554094
+    second: outside_181
+  - first:
+      213: -8060719173456443854
+    second: outside_182
+  - first:
+      213: -9055575110305990416
+    second: outside_183
+  - first:
+      213: -665708245686005083
+    second: outside_184
+  - first:
+      213: 5751022647374519801
+    second: outside_185
+  - first:
+      213: -6376838824239782464
+    second: outside_186
+  - first:
+      213: -8170982405424924705
+    second: outside_187
+  - first:
+      213: -7126314127939067384
+    second: outside_188
+  - first:
+      213: -441559371748831825
+    second: outside_189
+  - first:
+      213: -3824701107963743881
+    second: outside_190
+  - first:
+      213: -2884443349159219620
+    second: outside_191
+  - first:
+      213: 6522370566842454801
+    second: outside_192
+  - first:
+      213: 7581146061659828835
+    second: outside_193
+  - first:
+      213: -912845586404464766
+    second: outside_194
+  - first:
+      213: -8802918992419317105
+    second: outside_195
+  - first:
+      213: -825487668377475089
+    second: outside_196
+  - first:
+      213: -8813185119080283670
+    second: outside_197
+  - first:
+      213: 1952086189918925436
+    second: outside_198
+  - first:
+      213: -8111228124789228240
+    second: outside_199
+  - first:
+      213: 2081232239583609738
+    second: outside_200
+  - first:
+      213: -6113116037991504868
+    second: outside_201
+  - first:
+      213: 6645085374255889999
+    second: outside_202
+  - first:
+      213: 8606309234991884486
+    second: outside_203
+  - first:
+      213: 8769440877673374286
+    second: outside_204
+  - first:
+      213: -8066270246290050597
+    second: outside_205
+  - first:
+      213: -7932457747670426985
+    second: outside_206
+  - first:
+      213: 3439796892411591266
+    second: outside_207
+  - first:
+      213: -2001974398575958138
+    second: outside_208
+  - first:
+      213: -6279891230206580910
+    second: outside_209
+  - first:
+      213: 3184035430346086302
+    second: outside_210
+  - first:
+      213: -425672738379415922
+    second: outside_211
+  - first:
+      213: 3936102939317444906
+    second: outside_212
+  - first:
+      213: -7064629183990675605
+    second: outside_213
+  - first:
+      213: -3751395468105382706
+    second: outside_214
+  - first:
+      213: 6657875359104335106
+    second: outside_215
+  - first:
+      213: -5836909606810292231
+    second: outside_216
+  - first:
+      213: 6918973704803527777
+    second: outside_217
+  - first:
+      213: -8797097894650026395
+    second: outside_218
+  - first:
+      213: -1663350812259935959
+    second: outside_219
+  - first:
+      213: -198119109582873446
+    second: outside_220
+  - first:
+      213: 6881832397321930522
+    second: outside_221
+  - first:
+      213: 5032214351269439297
+    second: outside_222
+  - first:
+      213: -5182256613338687290
+    second: outside_223
+  - first:
+      213: -1629543476804586787
+    second: outside_224
+  - first:
+      213: 958185011946818944
+    second: outside_225
+  - first:
+      213: 5254760303787845172
+    second: outside_226
+  - first:
+      213: -1261691250892391564
+    second: outside_227
+  - first:
+      213: 1244239777599803623
+    second: outside_228
+  - first:
+      213: -4950406063721630302
+    second: outside_229
+  - first:
+      213: -1499571360682249771
+    second: outside_230
+  - first:
+      213: 293336497494650101
+    second: outside_231
+  - first:
+      213: 4777922981582348139
+    second: outside_232
+  - first:
+      213: 2679271254592638333
+    second: outside_233
+  - first:
+      213: 967017537021321041
+    second: outside_234
+  - first:
+      213: -5269548411006531762
+    second: outside_235
+  - first:
+      213: -1661888361266477210
+    second: outside_236
+  - first:
+      213: -1829949284711764653
+    second: outside_237
+  - first:
+      213: -180952588769466810
+    second: outside_238
+  - first:
+      213: 929898929181164928
+    second: outside_239
+  - first:
+      213: 2399522164411364827
+    second: outside_240
+  - first:
+      213: 1588738788988156971
+    second: outside_241
+  - first:
+      213: 431516291625273689
+    second: outside_242
+  - first:
+      213: 2218915232657407328
+    second: outside_243
+  - first:
+      213: 962957127943543533
+    second: outside_244
+  - first:
+      213: -6584668386532316026
+    second: outside_245
+  - first:
+      213: -5601305491238625867
+    second: outside_246
+  - first:
+      213: 7262753915875113063
+    second: outside_247
+  - first:
+      213: 4733476395140851549
+    second: outside_248
+  - first:
+      213: 5397219124053391822
+    second: outside_249
+  - first:
+      213: 7902765189255490201
+    second: outside_250
+  - first:
+      213: 3147127826892058341
+    second: outside_251
+  - first:
+      213: -1187153862383936539
+    second: outside_252
+  - first:
+      213: 8234111404601448223
+    second: outside_253
+  - first:
+      213: -8854766430045825842
+    second: outside_254
+  - first:
+      213: 1825431346649334633
+    second: outside_255
+  - first:
+      213: 8677169982918234558
+    second: outside_256
+  - first:
+      213: -9186390742562320550
+    second: outside_257
+  - first:
+      213: -7186356459803620477
+    second: outside_258
+  - first:
+      213: -5943015447803056728
+    second: outside_259
+  - first:
+      213: 4067606937000826724
+    second: outside_260
+  - first:
+      213: 5598619315961875662
+    second: outside_261
+  - first:
+      213: -129309902690622124
+    second: outside_262
+  - first:
+      213: 6240941871424930669
+    second: outside_263
+  - first:
+      213: -3044374742010067239
+    second: outside_264
+  - first:
+      213: 1622274287151596127
+    second: outside_265
+  - first:
+      213: 3503383782586023008
+    second: outside_266
+  - first:
+      213: 5086566482321585593
+    second: outside_267
+  - first:
+      213: 6514210836778382827
+    second: outside_268
+  - first:
+      213: -8930459433419762221
+    second: outside_269
+  - first:
+      213: -4696794699279830874
+    second: outside_270
+  - first:
+      213: -8036740106927827360
+    second: outside_271
+  - first:
+      213: -2872724480525968891
+    second: outside_272
+  - first:
+      213: -6277831091132162280
+    second: outside_273
+  - first:
+      213: 4341586198320593985
+    second: outside_274
+  - first:
+      213: -1383170167583078356
+    second: outside_275
+  - first:
+      213: 963437221959603643
+    second: outside_276
+  - first:
+      213: -9055055133928199304
+    second: outside_277
+  - first:
+      213: 5991484235299718430
+    second: outside_278
+  - first:
+      213: 3896069758243662082
+    second: outside_279
+  - first:
+      213: 7113487884346184350
+    second: outside_280
+  - first:
+      213: -3333876540464796021
+    second: outside_281
+  - first:
+      213: -9074491552240623233
+    second: outside_282
+  - first:
+      213: -8807829866970869816
+    second: outside_283
+  - first:
+      213: -3618694647267801487
+    second: outside_284
+  - first:
+      213: -521177800445464301
+    second: outside_285
+  - first:
+      213: -9067133814728612732
+    second: outside_286
+  - first:
+      213: -7800708248627416925
+    second: outside_287
+  - first:
+      213: -3074863794936276863
+    second: outside_288
+  - first:
+      213: -9116212629719914246
+    second: outside_289
+  - first:
+      213: -6030666363026009675
+    second: outside_290
+  - first:
+      213: -4057330216266959196
+    second: outside_291
+  - first:
+      213: 2486944201938702724
+    second: outside_292
+  - first:
+      213: 8465560460599824770
+    second: outside_293
+  - first:
+      213: 6793548057506034843
+    second: outside_294
+  - first:
+      213: -2562268501811172662
+    second: outside_295
+  - first:
+      213: 2358440017385161162
+    second: outside_296
+  - first:
+      213: -290033917625620418
+    second: outside_297
+  - first:
+      213: -6792596995598442596
+    second: outside_298
+  - first:
+      213: -8993533069662155264
+    second: outside_299
+  - first:
+      213: -5417881565951167409
+    second: outside_300
+  - first:
+      213: -4277068508978935269
+    second: outside_301
+  - first:
+      213: -4971901968365743709
+    second: outside_302
+  - first:
+      213: 7989551846468069588
+    second: outside_303
+  - first:
+      213: -3086411951644382255
+    second: outside_304
+  - first:
+      213: -8189157048528956236
+    second: outside_305
+  - first:
+      213: 7653867015256206201
+    second: outside_306
+  - first:
+      213: -3765004984965017988
+    second: outside_307
+  - first:
+      213: -1405493614660666052
+    second: outside_308
+  - first:
+      213: -7517367874274412603
+    second: outside_309
+  - first:
+      213: 8029562234308248704
+    second: outside_310
+  - first:
+      213: 5645862648581343036
+    second: outside_311
+  - first:
+      213: 8122866836302581842
+    second: outside_312
+  - first:
+      213: -1014219569142805493
+    second: outside_313
+  - first:
+      213: 4886624382077268223
+    second: outside_314
+  - first:
+      213: 5484314068237554876
+    second: outside_315
+  - first:
+      213: -7577486929269917324
+    second: outside_316
+  - first:
+      213: 3669862939629051245
+    second: outside_317
+  - first:
+      213: -2653830017803058584
+    second: outside_318
+  - first:
+      213: 1366160325696108210
+    second: outside_319
+  - first:
+      213: -779826757808318227
+    second: outside_320
+  - first:
+      213: 6155811035660846812
+    second: outside_321
+  - first:
+      213: -8298711783022077671
+    second: outside_322
+  - first:
+      213: -530943487984521939
+    second: outside_323
+  - first:
+      213: 1495492861755506159
+    second: outside_324
+  - first:
+      213: -5632188799206186440
+    second: outside_325
+  - first:
+      213: 1714297582898040497
+    second: outside_326
+  - first:
+      213: -7242942740538720255
+    second: outside_327
+  - first:
+      213: 7881180421709000009
+    second: outside_328
+  - first:
+      213: 7834048856384132557
+    second: outside_329
+  - first:
+      213: 4609416499908360798
+    second: outside_330
+  - first:
+      213: 8611970797876220853
+    second: outside_331
+  - first:
+      213: -8702909856408257918
+    second: outside_332
+  - first:
+      213: -8685338995519320961
+    second: outside_333
+  - first:
+      213: -1793043981480831205
+    second: outside_334
+  - first:
+      213: -5708538638497464508
+    second: outside_335
+  - first:
+      213: -1144494780263176116
+    second: outside_336
+  - first:
+      213: 2690247673733375097
+    second: outside_337
+  - first:
+      213: 6444759876822805113
+    second: outside_338
+  - first:
+      213: 8481957101352946975
+    second: outside_339
+  - first:
+      213: -4279611711184103597
+    second: outside_340
+  - first:
+      213: 8245962398171887956
+    second: outside_341
+  - first:
+      213: 4319342266616821762
+    second: outside_342
+  - first:
+      213: -1023455531934023208
+    second: outside_343
+  - first:
+      213: 8071107729507811273
+    second: outside_344
+  - first:
+      213: -1693930121951242562
+    second: outside_345
+  - first:
+      213: 200838966612046772
+    second: outside_346
+  - first:
+      213: 7423209905896437831
+    second: outside_347
+  - first:
+      213: -2994984270483988757
+    second: outside_348
+  - first:
+      213: -5049364083999392699
+    second: outside_349
+  - first:
+      213: 1105699444595233735
+    second: outside_350
+  - first:
+      213: -7656408216680501897
+    second: outside_351
+  - first:
+      213: -1553620527987581142
+    second: outside_352
+  - first:
+      213: 5078868095931749536
+    second: outside_353
+  - first:
+      213: 6443252205405091283
+    second: outside_354
+  - first:
+      213: -4453271176135214260
+    second: outside_355
+  - first:
+      213: 4118797848799549391
+    second: outside_356
+  - first:
+      213: 4564002780435130288
+    second: outside_357
+  - first:
+      213: 8439546905249058812
+    second: outside_358
+  - first:
+      213: -7355188037822141281
+    second: outside_359
+  - first:
+      213: 8071083624808771100
+    second: outside_360
+  - first:
+      213: 7993522052247227919
+    second: outside_361
+  - first:
+      213: 1107864730223725196
+    second: outside_362
+  - first:
+      213: -2729679910044906023
+    second: outside_363
+  - first:
+      213: -8583155495366006556
+    second: outside_364
+  - first:
+      213: 5710651098109483474
+    second: outside_365
+  - first:
+      213: -3180653293503380676
+    second: outside_366
+  - first:
+      213: -6930283676847746508
+    second: outside_367
+  - first:
+      213: -7062754206811519283
+    second: outside_368
+  - first:
+      213: -818449083528958434
+    second: outside_369
+  - first:
+      213: 4334774918765242977
+    second: outside_370
+  - first:
+      213: -7268376697642667049
+    second: outside_371
+  - first:
+      213: -460295415729395851
+    second: outside_372
+  - first:
+      213: -3689822923979381471
+    second: outside_373
+  - first:
+      213: 1943133340104909593
+    second: outside_374
+  - first:
+      213: -8306158145796281936
+    second: outside_375
+  - first:
+      213: -9199791052656445646
+    second: outside_376
+  - first:
+      213: -1178264875804981197
+    second: outside_377
+  - first:
+      213: -4496554159911903923
+    second: outside_378
+  - first:
+      213: -1904397193401468763
+    second: outside_379
+  - first:
+      213: -7480225847586619658
+    second: outside_380
+  - first:
+      213: 2431141987161183130
+    second: outside_381
+  - first:
+      213: -6358186668273234769
+    second: outside_382
+  - first:
+      213: 3502727663346025255
+    second: outside_383
+  - first:
+      213: 1672286816807770247
+    second: outside_384
+  - first:
+      213: -300378188283691684
+    second: outside_385
+  - first:
+      213: -1741320131621358424
+    second: outside_386
+  - first:
+      213: 3103068753553234997
+    second: outside_387
+  - first:
+      213: 4833977432714197954
+    second: outside_388
+  - first:
+      213: 7703792962185044432
+    second: outside_389
+  - first:
+      213: 7334467301105434276
+    second: outside_390
+  - first:
+      213: -9104859098564521759
+    second: outside_391
+  - first:
+      213: 6001560609245266501
+    second: outside_392
+  - first:
+      213: -8550140082175008367
+    second: outside_393
+  - first:
+      213: 2431404693224603644
+    second: outside_394
+  - first:
+      213: -8324288531762121327
+    second: outside_395
+  - first:
+      213: -3830743319683532954
+    second: outside_396
+  - first:
+      213: -7939658514962332453
+    second: outside_397
+  - first:
+      213: -8500309448237342103
+    second: outside_398
+  - first:
+      213: 8592625205773441231
+    second: outside_399
+  - first:
+      213: 4846415084300272144
+    second: outside_400
+  - first:
+      213: 6193737048676318310
+    second: outside_401
+  - first:
+      213: -8087340555321631425
+    second: outside_402
+  - first:
+      213: 6756414936656864426
+    second: outside_403
+  - first:
+      213: -1647806779336803881
+    second: outside_404
+  - first:
+      213: 1541175655959485138
+    second: outside_405
+  - first:
+      213: 8142016285636371410
+    second: outside_406
+  - first:
+      213: 8047767735533899773
+    second: outside_407
+  - first:
+      213: 585322875499607884
+    second: outside_408
+  - first:
+      213: 1600214819581020977
+    second: outside_409
+  - first:
+      213: 4708280910011410315
+    second: outside_410
+  - first:
+      213: 8668608995406552202
+    second: outside_411
+  - first:
+      213: 231889389023109809
+    second: outside_412
+  - first:
+      213: -4531619711861520579
+    second: outside_413
+  - first:
+      213: -1370108177830787462
+    second: outside_414
+  - first:
+      213: 1500979298637818486
+    second: outside_415
+  - first:
+      213: 4656529644898776443
+    second: outside_416
+  - first:
+      213: -1629295583390571887
+    second: outside_417
+  - first:
+      213: 6638028764468171503
+    second: outside_418
+  - first:
+      213: -8979309046854947075
+    second: outside_419
+  - first:
+      213: -7553137152538100456
+    second: outside_420
+  - first:
+      213: 708920366563397522
+    second: outside_421
+  - first:
+      213: -7434037429888008785
+    second: outside_422
+  - first:
+      213: 4932065626587161704
+    second: outside_423
+  - first:
+      213: -7331755024012356131
+    second: outside_424
+  - first:
+      213: -9168654130776772208
+    second: outside_425
+  - first:
+      213: 929011843368446969
+    second: outside_426
+  - first:
+      213: 477905202014506353
+    second: outside_427
+  - first:
+      213: -3183763231673173245
+    second: outside_428
+  - first:
+      213: -6916480610489224082
+    second: outside_429
+  - first:
+      213: -7910715884162915933
+    second: outside_430
+  - first:
+      213: -1365873174026457450
+    second: outside_431
+  - first:
+      213: 4406718697640870912
+    second: outside_432
+  - first:
+      213: 6785375555629752703
+    second: outside_433
+  - first:
+      213: -6450878344882800922
+    second: outside_434
+  - first:
+      213: 6193294780910530341
+    second: outside_435
+  - first:
+      213: 8105638952602094096
+    second: outside_436
+  - first:
+      213: -3616333478293994367
+    second: outside_437
+  - first:
+      213: 2069898519241278492
+    second: outside_438
+  - first:
+      213: 4532888029321901204
+    second: outside_439
+  - first:
+      213: -1326980029841648692
+    second: outside_440
+  - first:
+      213: 1623236210987405027
+    second: outside_441
+  - first:
+      213: -1299115921416333532
+    second: outside_442
+  - first:
+      213: -5322832988423024664
+    second: outside_443
+  - first:
+      213: 7972679173034000044
+    second: outside_444
+  - first:
+      213: 7679836483089420672
+    second: outside_445
+  - first:
+      213: 8781156417685158781
+    second: outside_446
+  - first:
+      213: 6153134833036389427
+    second: outside_447
+  - first:
+      213: -2736322479814224517
+    second: outside_448
+  - first:
+      213: 6307319156718843791
+    second: outside_449
+  - first:
+      213: 7723905137400422571
+    second: outside_450
+  - first:
+      213: -3605748278417574214
+    second: outside_451
+  - first:
+      213: 1209738320975281557
+    second: outside_452
+  - first:
+      213: 6220182197462881095
+    second: outside_453
+  - first:
+      213: 2366572172836120240
+    second: outside_454
+  - first:
+      213: -3522334619789850809
+    second: outside_455
+  - first:
+      213: 5062032206745177553
+    second: outside_456
+  - first:
+      213: -6612077043449719009
+    second: outside_457
+  - first:
+      213: -7862008376716318964
+    second: outside_458
+  - first:
+      213: -5657884986905914720
+    second: outside_459
+  - first:
+      213: 555224135703290228
+    second: outside_460
+  - first:
+      213: -2481509458564966891
+    second: outside_461
+  - first:
+      213: 5142336594523066595
+    second: outside_462
+  - first:
+      213: -2470446061026852781
+    second: outside_463
+  - first:
+      213: -7643822672960764551
+    second: outside_464
+  - first:
+      213: -5803486165518406035
+    second: outside_465
+  - first:
+      213: -5538584815990043358
+    second: outside_466
+  - first:
+      213: -1708561530364519304
+    second: outside_467
+  - first:
+      213: -121846486316968800
+    second: outside_468
+  - first:
+      213: -4994971223580386717
+    second: outside_469
+  - first:
+      213: -3105883248201533672
+    second: outside_470
+  - first:
+      213: -4516183301853321547
+    second: outside_471
+  - first:
+      213: 7221202476460717829
+    second: outside_472
+  - first:
+      213: 8568639915056379896
+    second: outside_473
+  - first:
+      213: 5980396969597553922
+    second: outside_474
+  - first:
+      213: -7912539559593587896
+    second: outside_475
+  - first:
+      213: 1079790651386210207
+    second: outside_476
+  - first:
+      213: 2256184163853106721
+    second: outside_477
+  - first:
+      213: -5701259798185680449
+    second: outside_478
+  - first:
+      213: -8299106479959476203
+    second: outside_479
+  - first:
+      213: 2215483081296270989
+    second: outside_480
+  - first:
+      213: 7240672674066277504
+    second: outside_481
+  - first:
+      213: -2015819082941260453
+    second: outside_482
+  - first:
+      213: 3167544275452420381
+    second: outside_483
+  - first:
+      213: -3522177167492307923
+    second: outside_484
+  - first:
+      213: -2961633642670687773
+    second: outside_485
+  - first:
+      213: 3565698218490024382
+    second: outside_486
+  - first:
+      213: -1921233138034887482
+    second: outside_487
+  - first:
+      213: 7270938165716345006
+    second: outside_488
+  - first:
+      213: -7102680011226402523
+    second: outside_489
+  - first:
+      213: -3947343629762219225
+    second: outside_490
+  - first:
+      213: 7810127568900185416
+    second: outside_491
+  - first:
+      213: 6320561588356547865
+    second: outside_492
+  - first:
+      213: -7976144629419182062
+    second: outside_493
+  - first:
+      213: -7847889622326371478
+    second: outside_494
+  - first:
+      213: -6679211389564925436
+    second: outside_495
+  - first:
+      213: -7518585168924924263
+    second: outside_496
+  - first:
+      213: 2032817370682500452
+    second: outside_497
+  - first:
+      213: 1082875777000753266
+    second: outside_498
+  - first:
+      213: -716724955778349097
+    second: outside_499
+  - first:
+      213: -4192032751622344812
+    second: outside_500
+  - first:
+      213: 7172218495245476899
+    second: outside_501
+  - first:
+      213: 1371702011848668025
+    second: outside_502
+  - first:
+      213: 3250993411547540776
+    second: outside_503
+  - first:
+      213: 5156334831206784210
+    second: outside_504
+  - first:
+      213: 7605023572889899331
+    second: outside_505
+  - first:
+      213: -7222161257256575964
+    second: outside_506
+  - first:
+      213: 8382199331244226218
+    second: outside_507
+  - first:
+      213: -244647131742498188
+    second: outside_508
+  - first:
+      213: 4261313780890881308
+    second: outside_509
+  - first:
+      213: 6755395436584315245
+    second: outside_510
+  - first:
+      213: 6376550463021237328
+    second: outside_511
+  - first:
+      213: -5969355843881372314
+    second: outside_512
+  - first:
+      213: -5472769559017473652
+    second: outside_513
+  - first:
+      213: 8693447367934693201
+    second: outside_514
+  - first:
+      213: 6275424904581656703
+    second: outside_515
+  - first:
+      213: -8951659982303625312
+    second: outside_516
+  - first:
+      213: 6428678278342802679
+    second: outside_517
+  - first:
+      213: 3545966046157357684
+    second: outside_518
+  - first:
+      213: -8519649570113661944
+    second: outside_519
+  - first:
+      213: -6774731708069977043
+    second: outside_520
+  - first:
+      213: 2362795890526447188
+    second: outside_521
+  - first:
+      213: -6935858906443735414
+    second: outside_522
+  - first:
+      213: 4292903692752664280
+    second: outside_523
+  - first:
+      213: 8732376779772788109
+    second: outside_524
+  - first:
+      213: 2521743235924577865
+    second: outside_525
+  - first:
+      213: -1028169018637844160
+    second: outside_526
+  - first:
+      213: 5303493389933317162
+    second: outside_527
+  - first:
+      213: -3011971423742043210
+    second: outside_528
+  - first:
+      213: 1929915147319222894
+    second: outside_529
+  - first:
+      213: 959168465141690280
+    second: outside_530
+  - first:
+      213: 4044921687515770652
+    second: outside_531
+  - first:
+      213: 3472845348660057175
+    second: outside_532
+  - first:
+      213: 999438836533204202
+    second: outside_533
+  - first:
+      213: -8006332227462844710
+    second: outside_534
+  - first:
+      213: 9116958257790784396
+    second: outside_535
+  - first:
+      213: -3910999699327180620
+    second: outside_536
+  - first:
+      213: -2165070659810353499
+    second: outside_537
+  - first:
+      213: -2951460236685963438
+    second: outside_538
+  - first:
+      213: 5457564440939382407
+    second: outside_539
+  - first:
+      213: 1250848819443681956
+    second: outside_540
+  - first:
+      213: 2983236861218424132
+    second: outside_541
+  - first:
+      213: -1259226114656533560
+    second: outside_542
+  - first:
+      213: 8431372491200428393
+    second: outside_543
+  - first:
+      213: 6000443278489536399
+    second: outside_544
+  - first:
+      213: -4820494934867838240
+    second: outside_545
+  - first:
+      213: 4649007017836292598
+    second: outside_546
+  - first:
+      213: 4625441237843157433
+    second: outside_547
+  - first:
+      213: 2131654311887726782
+    second: outside_548
+  - first:
+      213: -6456863566107318704
+    second: outside_549
+  - first:
+      213: 2585522873423838169
+    second: outside_550
+  - first:
+      213: -4231732742154769351
+    second: outside_551
+  - first:
+      213: 5794899631559845908
+    second: outside_552
+  - first:
+      213: -6658995993912390598
+    second: outside_553
+  - first:
+      213: 8690802578698009756
+    second: outside_554
+  - first:
+      213: 6536191978165961136
+    second: outside_555
+  - first:
+      213: 6291114828110067799
+    second: outside_556
+  - first:
+      213: 8703500331896490641
+    second: outside_557
+  - first:
+      213: -3408726217252514019
+    second: outside_558
+  - first:
+      213: -5449132797607525563
+    second: outside_559
+  - first:
+      213: 617954981815490719
+    second: outside_560
+  - first:
+      213: -2275101048588648925
+    second: outside_561
+  - first:
+      213: -3869912387828100603
+    second: outside_562
+  - first:
+      213: -3926418341399982121
+    second: outside_563
+  - first:
+      213: 7598230039735622673
+    second: outside_564
+  - first:
+      213: -1080322383700700623
+    second: outside_565
+  - first:
+      213: -6714349254717806038
+    second: outside_566
+  - first:
+      213: -7525397890424862781
+    second: outside_567
+  - first:
+      213: 2880425733487961983
+    second: outside_568
+  - first:
+      213: 5813400769758501593
+    second: outside_569
+  - first:
+      213: -4617468501996388224
+    second: outside_570
+  - first:
+      213: 1221776632848344750
+    second: outside_571
+  - first:
+      213: -518623097755944398
+    second: outside_572
+  - first:
+      213: 4997629033255279587
+    second: outside_573
+  - first:
+      213: -1304804078807106316
+    second: outside_574
+  - first:
+      213: 5672969543416611273
+    second: outside_575
+  - first:
+      213: 8143247084327557622
+    second: outside_576
+  - first:
+      213: -8076056099235275444
+    second: outside_577
+  - first:
+      213: -5215269980687218405
+    second: outside_578
+  - first:
+      213: 810645282468328985
+    second: outside_579
+  - first:
+      213: -2908010281476526731
+    second: outside_580
+  - first:
+      213: 553347930470319801
+    second: outside_581
+  - first:
+      213: 8559295010698744776
+    second: outside_582
+  - first:
+      213: -8968952181496708271
+    second: outside_583
+  - first:
+      213: -7824018330698262521
+    second: outside_584
+  - first:
+      213: -8377369995130867910
+    second: outside_585
+  - first:
+      213: 8391933753552561238
+    second: outside_586
+  - first:
+      213: 1019268130272162581
+    second: outside_587
+  - first:
+      213: -4456679493064971161
+    second: outside_588
+  - first:
+      213: 7470774373446729898
+    second: outside_589
+  - first:
+      213: -373324465452733598
+    second: outside_590
+  - first:
+      213: -8929240604609093455
+    second: outside_591
+  - first:
+      213: 1933910219319082684
+    second: outside_592
+  - first:
+      213: 7694556432208326086
+    second: outside_593
+  - first:
+      213: 540553139599176496
+    second: outside_594
+  - first:
+      213: -8830638402119744123
+    second: outside_595
+  - first:
+      213: 6696334193868263219
+    second: outside_596
+  - first:
+      213: 4973540431642648224
+    second: outside_597
+  - first:
+      213: -5677453781670436786
+    second: outside_598
+  - first:
+      213: 7640306460181383543
+    second: outside_599
+  - first:
+      213: -598576193373273316
+    second: outside_600
+  - first:
+      213: 5431962549580120453
+    second: outside_601
+  - first:
+      213: -7985485694160414964
+    second: outside_602
+  - first:
+      213: -3565034758280167350
+    second: outside_603
+  - first:
+      213: -4031295796719881952
+    second: outside_604
+  - first:
+      213: 1799479927469965963
+    second: outside_605
+  - first:
+      213: -7280169107087870264
+    second: outside_606
+  - first:
+      213: 3749357693705323860
+    second: outside_607
+  - first:
+      213: 6865724499056490415
+    second: outside_608
+  - first:
+      213: 3791511866648854578
+    second: outside_609
+  - first:
+      213: -123936801394861777
+    second: outside_610
+  - first:
+      213: 7483599285141047354
+    second: outside_611
+  - first:
+      213: 432087211461468839
+    second: outside_612
+  - first:
+      213: -3998473126839041108
+    second: outside_613
+  - first:
+      213: -4837194642124079988
+    second: outside_614
+  - first:
+      213: -5823264464660654593
+    second: outside_615
+  - first:
+      213: -9110173158288551568
+    second: outside_616
+  - first:
+      213: 5199703951927441128
+    second: outside_617
+  - first:
+      213: -8305567321929896147
+    second: outside_618
+  - first:
+      213: -1560168140313297585
+    second: outside_619
+  - first:
+      213: -3474941267683742945
+    second: outside_620
+  - first:
+      213: -2225521130034014600
+    second: outside_621
+  - first:
+      213: -4194285481227079938
+    second: outside_622
+  - first:
+      213: 474841487838565382
+    second: outside_623
+  - first:
+      213: 4956128492631614859
+    second: outside_624
+  - first:
+      213: 1253205407693951123
+    second: outside_625
+  - first:
+      213: 2579835004918583539
+    second: outside_626
+  - first:
+      213: 2398064064652444698
+    second: outside_627
+  - first:
+      213: -9028696037491943548
+    second: outside_628
+  - first:
+      213: -862775530611512097
+    second: outside_629
+  - first:
+      213: -1687317354716901344
+    second: outside_630
+  - first:
+      213: 5962487168529784945
+    second: outside_631
+  - first:
+      213: 1428765485300464312
+    second: outside_632
+  - first:
+      213: 6617798014392275359
+    second: outside_633
+  - first:
+      213: 7982640335191799582
+    second: outside_634
+  - first:
+      213: -477052254721500184
+    second: outside_635
+  - first:
+      213: -4274523047393519341
+    second: outside_636
+  - first:
+      213: -2813291497094255178
+    second: outside_637
+  - first:
+      213: -5294566700007737770
+    second: outside_638
+  - first:
+      213: 8679642474753367460
+    second: outside_639
+  - first:
+      213: 3190599036045575969
+    second: outside_640
+  - first:
+      213: -6109602262420445632
+    second: outside_641
+  - first:
+      213: -4993364099146955752
+    second: outside_642
+  - first:
+      213: -2257746509843823769
+    second: outside_643
+  - first:
+      213: 2403076928395291010
+    second: outside_644
+  - first:
+      213: 4368695393264662508
+    second: outside_645
+  - first:
+      213: 5347182862428609595
+    second: outside_646
+  - first:
+      213: 4223304041676425371
+    second: outside_647
+  - first:
+      213: -7127169988205160106
+    second: outside_648
+  - first:
+      213: -1523442246809654298
+    second: outside_649
+  - first:
+      213: -8902561322682166285
+    second: outside_650
+  - first:
+      213: 5751416432517393506
+    second: outside_651
+  - first:
+      213: -4645155342520133128
+    second: outside_652
+  - first:
+      213: -69487344142694455
+    second: outside_653
+  - first:
+      213: 6226984987212653124
+    second: outside_654
+  - first:
+      213: 4543341361737291490
+    second: outside_655
+  - first:
+      213: -3240021808417882963
+    second: outside_656
+  - first:
+      213: 8501653880492602735
+    second: outside_657
+  - first:
+      213: -1684174912984124605
+    second: outside_658
+  - first:
+      213: 7377092575363084040
+    second: outside_659
+  - first:
+      213: 1193391177854789881
+    second: outside_660
+  - first:
+      213: 3088026111398360734
+    second: outside_661
+  - first:
+      213: -5653135831839210546
+    second: outside_662
+  - first:
+      213: -3507615887018803536
+    second: outside_663
+  - first:
+      213: 2371146293733446486
+    second: outside_664
+  - first:
+      213: 5750905551530868407
+    second: outside_665
+  - first:
+      213: -8490766123778259386
+    second: outside_666
+  - first:
+      213: -5390277472682223721
+    second: outside_667
+  - first:
+      213: 8415578437623235604
+    second: outside_668
+  - first:
+      213: 1316720346483641338
+    second: outside_669
+  - first:
+      213: 1604842739285572050
+    second: outside_670
+  - first:
+      213: 3020268459922186596
+    second: outside_671
+  - first:
+      213: -3669267403678691922
+    second: outside_672
+  - first:
+      213: 4570939242684395423
+    second: outside_673
+  - first:
+      213: -8622263635062747201
+    second: outside_674
+  - first:
+      213: -5783340033107223898
+    second: outside_675
+  - first:
+      213: -7712739502573823310
+    second: outside_676
+  - first:
+      213: -2536142485360236248
+    second: outside_677
+  - first:
+      213: -6682158883634958770
+    second: outside_678
+  - first:
+      213: -8101629434022741317
+    second: outside_679
+  - first:
+      213: 547231266652764765
+    second: outside_680
+  - first:
+      213: 6139987318129928208
+    second: outside_681
+  - first:
+      213: -8967633504449093494
+    second: outside_682
+  - first:
+      213: 8427609864693550536
+    second: outside_683
+  - first:
+      213: -4673167119374270809
+    second: outside_684
+  - first:
+      213: -7751958807091722390
+    second: outside_685
+  - first:
+      213: 6788649662536744401
+    second: outside_686
+  - first:
+      213: 8016665465855996761
+    second: outside_687
+  - first:
+      213: 2499870787920911099
+    second: outside_688
+  - first:
+      213: -120121103004903199
+    second: outside_689
+  - first:
+      213: 8850662102343934524
+    second: outside_690
+  - first:
+      213: -7630312457836382379
+    second: outside_691
+  - first:
+      213: -5707005002973363214
+    second: outside_692
+  - first:
+      213: -7157498184559502937
+    second: outside_693
+  - first:
+      213: 473097152611528814
+    second: outside_694
+  - first:
+      213: -64567341292534568
+    second: outside_695
+  - first:
+      213: 2844199633857912025
+    second: outside_696
+  - first:
+      213: -7753022856007185152
+    second: outside_697
+  - first:
+      213: 7327464201071181149
+    second: outside_698
+  - first:
+      213: -3211062626473862899
+    second: outside_699
+  - first:
+      213: 8505244721135198652
+    second: outside_700
+  - first:
+      213: 7058654077598169267
+    second: outside_701
+  - first:
+      213: -5066928059869352152
+    second: outside_702
+  - first:
+      213: -6354805231087145350
+    second: outside_703
+  - first:
+      213: 51483709714882916
+    second: outside_704
+  - first:
+      213: 6878626841433405545
+    second: outside_705
+  - first:
+      213: -8319976618808709436
+    second: outside_706
+  - first:
+      213: 4251581061347021264
+    second: outside_707
+  - first:
+      213: -8339504386497145993
+    second: outside_708
+  - first:
+      213: 2881778865086419668
+    second: outside_709
+  - first:
+      213: 8690017800198500243
+    second: outside_710
+  - first:
+      213: -8585064806998479159
+    second: outside_711
+  - first:
+      213: -8955172796677485496
+    second: outside_712
+  - first:
+      213: -812576998758543761
+    second: outside_713
+  - first:
+      213: -939655954120526843
+    second: outside_714
+  - first:
+      213: -3507248789869840272
+    second: outside_715
+  - first:
+      213: -745738385368226892
+    second: outside_716
+  - first:
+      213: -3625857145493914775
+    second: outside_717
+  - first:
+      213: -964260874711116059
+    second: outside_718
+  - first:
+      213: 4592061084768232027
+    second: outside_719
+  - first:
+      213: -3056762905443454265
+    second: outside_720
+  - first:
+      213: 6682045868244243547
+    second: outside_721
+  - first:
+      213: 935707465885619627
+    second: outside_722
+  - first:
+      213: -1196003186330387024
+    second: outside_723
+  - first:
+      213: 2937970982768482724
+    second: outside_724
+  - first:
+      213: -4745564420376012390
+    second: outside_725
+  - first:
+      213: -3799963548835508319
+    second: outside_726
+  - first:
+      213: -3134815517496811680
+    second: outside_727
+  - first:
+      213: -7847737013545531403
+    second: outside_728
+  - first:
+      213: -7326718804010544079
+    second: outside_729
+  - first:
+      213: -6971126451320778321
+    second: outside_730
+  - first:
+      213: 6486675997960414116
+    second: outside_731
+  - first:
+      213: -7388166399209449704
+    second: outside_732
+  - first:
+      213: 6953287891471811383
+    second: outside_733
+  - first:
+      213: -3236130727297206427
+    second: outside_734
+  - first:
+      213: -3693944467172596563
+    second: outside_735
+  - first:
+      213: -8315643332551706480
+    second: outside_736
+  - first:
+      213: -4814435459868535205
+    second: outside_737
+  - first:
+      213: -4716772590973908046
+    second: outside_738
+  - first:
+      213: -256573702182677295
+    second: outside_739
+  - first:
+      213: -4454566672034891152
+    second: outside_740
+  - first:
+      213: 6037384444505640037
+    second: outside_741
+  - first:
+      213: 6234289213917306716
+    second: outside_742
+  - first:
+      213: -3863815688582855592
+    second: outside_743
+  - first:
+      213: 5943365120140642664
+    second: outside_744
+  - first:
+      213: -4761974826967358885
+    second: outside_745
+  - first:
+      213: 8587489931181684321
+    second: outside_746
+  - first:
+      213: 6277940986981369834
+    second: outside_747
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: outside_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 352
+        width: 144
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad2122647a36a2c0800000000000000
+      internalID: -4420781712680604251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_1
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b658bbbf0850b000800000000000000
+      internalID: 49636420498249401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_2
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d27f9259e333c6e20800000000000000
+      internalID: 3345104967112980269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2134ea8c0c8aae80800000000000000
+      internalID: -8166560988785266386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_4
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 304
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ff2cf2be3854900800000000000000
+      internalID: 668085165876248341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_5
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0876c27cff1fc5760800000000000000
+      internalID: 7448093964624488320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_6
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 416
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12863710db6b12f50800000000000000
+      internalID: 6854961030724020257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_7
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d46349af7a7e3c0800000000000000
+      internalID: -4330307822023193192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_8
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 416
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90ed3a1196d45d20800000000000000
+      internalID: 3266471548449317020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_9
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 370
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc3ef04e705cffc0800000000000000
+      internalID: -3459801910540878644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_10
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 368
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae129e2010a2a110800000000000000
+      internalID: 1270754036233150121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 352
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933e395dddbbd2500800000000000000
+      internalID: 373160905587024697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_16
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 352
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e22ec260b579318d0800000000000000
+      internalID: -2876789319758192082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_17
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 384
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1010be3ba7a69eb80800000000000000
+      internalID: -8365037757626908415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_18
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 384
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f9b39065c87ba20800000000000000
+      internalID: 3078083171481001833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_19
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e20b18fc3626ab0800000000000000
+      internalID: -5016337292052124148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_20
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 384
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c39e3d9dbe49017f0800000000000000
+      internalID: -643851006021211844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_21
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 384
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8ea2ffce020a810800000000000000
+      internalID: 1774454455449348288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_22
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 384
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc043b4c3fd14f1d0800000000000000
+      internalID: -3317994092650872629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_23
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 384
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1361ef2ce40f3300800000000000000
+      internalID: 233911118108648223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_24
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 357
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7525244bbf090c0800000000000000
+      internalID: -4570876870155675656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_25
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 357
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 452fc1c3dd74c0240800000000000000
+      internalID: 4759257921745646164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_26
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 357
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47333254631dd41a0800000000000000
+      internalID: -6823567829378059404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_27
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 368
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bebe06c302d835fc0800000000000000
+      internalID: -3507304515200029717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_28
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 368
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6efd52cff9f3f3650800000000000000
+      internalID: 6214755967157264358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_29
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 368
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311d0520a63be09c0800000000000000
+      internalID: -3959029754525331181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_30
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 352
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62486cfce65582160800000000000000
+      internalID: 7000939555168093222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_31
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 352
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f54cb80fe8b1c03c0800000000000000
+      internalID: -4392105235858078625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_32
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 353
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b511e18b9542672d0800000000000000
+      internalID: -3281395310733160101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_33
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 353
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9874d98f74cdd0f0800000000000000
+      internalID: -1090499482701498209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_34
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 352
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab4d880fa0445aa0800000000000000
+      internalID: -6173238068711175255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_35
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 272
+        width: 89
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f61d5bfc5057140800000000000000
+      internalID: 4716682574407233318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_36
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 338
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1a503b68bc37e50800000000000000
+      internalID: 6806007241276498400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_37
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 337
+        width: 41
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b61cfa27ef1dc9e0800000000000000
+      internalID: -1599587214927587660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_38
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 305
+        width: 5
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee5ffa86e94366eb0800000000000000
+      internalID: -4727032903912917522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_39
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 323
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7845717413f495d50800000000000000
+      internalID: 6726494591519249543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_40
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 320
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2212f0ef1b5fd8710800000000000000
+      internalID: 1697282779408965922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_41
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 320
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f6cd69d7e54a670800000000000000
+      internalID: 8549061886150995858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_42
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 320
+        width: 96
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d83f90ca5ea22d10800000000000000
+      internalID: 2099432081110022361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_48
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 288
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e965500791fd24a0800000000000000
+      internalID: -6616366646689437210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_49
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 288
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc982305402bb3870800000000000000
+      internalID: 8663714039772383693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_50
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 306
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8764b19830d00a020800000000000000
+      internalID: 2350893314323727992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_51
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 306
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff074005682d1230800000000000000
+      internalID: 3611086890482470896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_52
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 311
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce0037a1b5e270d80800000000000000
+      internalID: -8284602020704091924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_53
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 308
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f3da51e67ca0d80800000000000000
+      internalID: -8283589288970600657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_54
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 306
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb26c973933d40a10800000000000000
+      internalID: 1874855587592561343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_55
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 306
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 140308687b8d50cf0800000000000000
+      internalID: -286584718520995775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_57
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 290
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f817cf1544e3090800000000000000
+      internalID: -8052923964773527772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_58
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 278
+        width: 45
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be4630e99b43af20800000000000000
+      internalID: 3432670465250184886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_59
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 273
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d36656a5530e2c360800000000000000
+      internalID: 7188554474991216189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_60
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 160
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cbcd6e4602a095f0800000000000000
+      internalID: -751922989801550908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_61
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 272
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3651b804a15c2d770800000000000000
+      internalID: 8634180152165340515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_62
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 276
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0da739bca4498a50800000000000000
+      internalID: 6523821043855371531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_63
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 273
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73389231dba59b050800000000000000
+      internalID: 5816780161842512695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_64
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 276
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6078a9c513ac380800000000000000
+      internalID: -8950287035646146908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_65
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 273
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5a570a281aba2c0800000000000000
+      internalID: -4419261026924124756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_68
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 224
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85875e3317446d0d0800000000000000
+      internalID: -3398453615811790760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_69
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 224
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd18d79bf59f3f3d0800000000000000
+      internalID: -3173919122836848163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_70
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 240
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6336e6d1da154df0800000000000000
+      internalID: -196721520164850834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_71
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 212
+        width: 53
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d77c2a0700ff8600800000000000000
+      internalID: 472860398923315153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_72
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 160
+        width: 44
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6623c9b88f5068520800000000000000
+      internalID: 2703855191334859366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_73
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 160
+        width: 95
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c7256569779c1e0800000000000000
+      internalID: -2177077457279878047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_75
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 178
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3154edd6c38c7a0800000000000000
+      internalID: -6356764431455284264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_76
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7619cc2521647170800000000000000
+      internalID: 8175266035877353086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_77
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 160
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ee59dd2cf32bd20800000000000000
+      internalID: 3292764383735049740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_78
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3a4bcd5db0040a0800000000000000
+      internalID: -6899501615972834333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_79
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 160
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e059217bb1cfc50800000000000000
+      internalID: 6700260818725178987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_80
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33844eedbe66cdb40800000000000000
+      internalID: 5466357210963789875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_81
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 160
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51ef202bb892abe0800000000000000
+      internalID: -1467442599103045283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_82
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 160
+        width: 128
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c75913e46a3a360800000000000000
+      internalID: 7179765085728242782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_83
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b27b85a337d27eb0800000000000000
+      internalID: -4723476442337545548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_84
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d2ac0d4ab3891720800000000000000
+      internalID: 2817427878076785363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_85
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda89ec52e843ca70800000000000000
+      internalID: 8845994230144404188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_86
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 96
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5492135a5a98295a0800000000000000
+      internalID: -6515994366317614779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_87
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 96
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac7be902524dc5a0800000000000000
+      internalID: -6499465767104578394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_88
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 96
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47945ca1b73771f10800000000000000
+      internalID: 2240386312207419764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_89
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 96
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8632d9aa06f50c030800000000000000
+      internalID: 3512912578132910952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_90
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 16
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55044688430c51f30800000000000000
+      internalID: 4545750730759487573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_91
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 96
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87691ab7e811bd9f0800000000000000
+      internalID: -442740834708646280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_92
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 64
+        width: 32
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f74e34f2d52f360800000000000000
+      internalID: 7201921211702738816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_93
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 64
+        width: 56
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458ad7d386b4fdf30800000000000000
+      internalID: 4602480255276263508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_94
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 16
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769d9871415562490800000000000000
+      internalID: -7771430562198595225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_95
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 32
+        width: 8
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e8c94392a0b5b10800000000000000
+      internalID: 1971180433997336128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_12
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 352
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e5a870655a03c00800000000000000
+      internalID: 878383716249525807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_13
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 352
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 789a9403dd71ba9c0800000000000000
+      internalID: -3915009212303169145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_14
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 352
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a38ad0b7d3050560800000000000000
+      internalID: 7279228597634237346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_15
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 352
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66861bb45243e1e50800000000000000
+      internalID: 6781915423654897766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_43
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 288
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd86aa91788f14a0800000000000000
+      internalID: -6620422905704051254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_44
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 288
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66507e8eb87d3310800000000000000
+      internalID: 1386397020128826986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_45
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 288
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1d12cbcada6c9d0800000000000000
+      internalID: -2754323164688166415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_46
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 288
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f08a5f6b33b49030800000000000000
+      internalID: 3500619878226362609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_47
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 288
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f137936e83452f0800000000000000
+      internalID: -985099857029816442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_56
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 256
+        width: 128
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f86ef97304de790800000000000000
+      internalID: -7499267196851941568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_66
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 224
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6989a223f78880b0800000000000000
+      internalID: -5726177447873246867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_67
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62cbd3412063b44a0800000000000000
+      internalID: -6608128645678646234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outside_74
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 208
+        width: 128
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4a59a0ae6977960800000000000000
+      internalID: 7599708828155094192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

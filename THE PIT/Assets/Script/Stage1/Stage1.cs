@@ -24,7 +24,8 @@ public class Stage1 : MonoBehaviour
         else
         {
             ReSpawn.readyDie = true;
-            Destroy(player);
+            Debug.Log("player Die");
+            player.SetActive(false);
         }
 
     } 
