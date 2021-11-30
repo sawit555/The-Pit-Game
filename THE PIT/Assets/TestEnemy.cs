@@ -50,18 +50,13 @@ public class TestEnemy : Enemy
         {
             if(currentState == EnemyState.idle || currentState == EnemyState.walk)
             {
-            Vector3 temp = Vector3.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
-
+                Vector3 temp = Vector3.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
                 rd.MovePosition(temp);
                 changeAnim(temp - transform.position);
                 ChangState(EnemyState.walk);
                 anima.SetBool("walk", true);    
-
             }
-            
-  
         }
-
         else
         {
             anima.SetBool("walk", false);
@@ -73,7 +68,6 @@ public class TestEnemy : Enemy
     {
         timer -= Time.deltaTime;
         Debug.Log("COOLDOWN");
-     
         if (timer <= 0 && cooling && attack == true)
         {
             cooling = false;
@@ -93,8 +87,6 @@ public class TestEnemy : Enemy
 
     }
 
-
-
     public void attackDistance()
     {
         if (Vector3.Distance(target.position, transform.position) <= attackRadius)
@@ -102,27 +94,16 @@ public class TestEnemy : Enemy
             ChangState(EnemyState.attack);
             if(currentState == EnemyState.attack && cooling == false)
             {
-
-            Attack();
+                Attack();
             }
             if (cooling)
             {
                 Cooldown();
                 anima.SetBool("attack", false);
-
             }
-
-
         }
-       
-
         //canAttack = 0f;
         //anima.SetBool("walk", false);
-
-
-
-
-
         else
         {
             ChangState(EnemyState.walk);

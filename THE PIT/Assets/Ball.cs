@@ -17,6 +17,8 @@ public class Ball : Enemy
     public float attackDamage;
     float canAttack;
     public Rigidbody2D rd;
+
+    public Animator anima;
     //public Animator anima;
 
     // Start is called before the first frame update
@@ -98,5 +100,36 @@ public class Ball : Enemy
             enemy.velocity = new Vector2();
         }
 
+    }
+
+    private void SetAnimFloat(Vector2 setVector)
+    {
+        anima.SetFloat("moveX", setVector.x);
+        anima.SetFloat("moveY", setVector.y);
+    }
+    private void changeAnim(Vector2 direction)
+    {
+        if (Mathf.Abs(direction.x) > Mathf.Abs(direction.y))
+        {
+            if (direction.x > 0)
+            {
+                SetAnimFloat(Vector2.right);
+            }
+            else if (direction.x < 0)
+            {
+                SetAnimFloat(Vector2.left);
+            }
+        }
+        else if (Mathf.Abs(direction.x) < Mathf.Abs(direction.y))
+        {
+            if (direction.y > 0)
+            {
+                SetAnimFloat(Vector2.up);
+            }
+            else if (direction.y < 0)
+            {
+                SetAnimFloat(Vector2.down);
+            }
+        }
     }
 }
