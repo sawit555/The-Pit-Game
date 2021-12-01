@@ -3249,7 +3249,7 @@ MonoBehaviour:
   currentState: 2
   enemyName: Circle
   maxHp: 500
-  speed: 1.5
+  speed: 3
   homePosition: {fileID: 0}
   target: {fileID: 5767829215907657724}
   chaseRadius: 2.5
@@ -6086,7 +6086,7 @@ MonoBehaviour:
   currentState: 0
   enemyName: 
   maxHp: 10
-  speed: 1.5
+  speed: 5
   target: {fileID: 5767829215907657724}
   chaseRadius: 3
   stopRadius: 1
@@ -6185,7 +6185,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Constraints: 4
 --- !u!58 &1166323038
 CircleCollider2D:
   m_ObjectHideFlags: 0

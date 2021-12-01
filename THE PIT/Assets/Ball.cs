@@ -16,8 +16,8 @@ public class Ball : Enemy
     public float attackSpeed;
     public float attackDamage;
     float canAttack;
-    public Rigidbody2D rd;
 
+    public Rigidbody2D rd;
     public Animator anima;
     //public Animator anima;
 
@@ -26,8 +26,9 @@ public class Ball : Enemy
     {
 
         target = GameObject.FindWithTag("Player").transform;
+        currentState = EnemyState.idle;
         rd = GetComponent<Rigidbody2D>();
-        //anima = GetComponent<Animator>();
+        anima = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -41,10 +42,31 @@ public class Ball : Enemy
         if (Vector3.Distance(target.position, transform.position) <= chaseRadius && Vector3.Distance(target.position, transform.position) > attackRadius)
         {
 
-            transform.position = Vector3.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
+            if (currentState == EnemyState.idle || currentState == EnemyState.walk)
+            {
+                Vector3 temp = Vector3.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
+                rd.MovePosition(temp);
+                changeAnim(temp - transform.position);
+                ChangState(EnemyState.walk);
+                anima.SetBool("walk", true);
+            }
+        
+            else
+        {
+                ChangState(EnemyState.idle);
+                anima.SetBool("walk", false);
         }
+    }
 
 
+    }
+
+    private void ChangState(EnemyState newState)
+    {
+        if (currentState != newState)
+        {
+            currentState = newState;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -72,10 +94,6 @@ public class Ball : Enemy
             Rigidbody2D enemy = other.GetComponent<Rigidbody2D>();
             if (enemy != null)
             {
-                //enemy.isKinematic = false;
-                //Vector2 difference = transform.position - other.transform.position;
-                //difference = difference.normalized * thrust;
-                //enemy.AddForce(difference, ForceMode2D.Impulse);
                 StartCoroutine(KnockCo(enemy));
 
             }
@@ -83,25 +101,7 @@ public class Ball : Enemy
         }
 
     }
-    private IEnumerator KnockCo(Rigidbody2D enemy)
-    {
-        if (enemy != null)
-        {
-            //yield return new WaitForSeconds(knockTime);
-            //enemy.velocity = Vector2.zero;
-            //enemy.isKinematic = true;
-
-            Vector2 forceDirection = enemy.transform.position - transform.position;
-            Vector2 force = forceDirection.normalized * thrust;
-
-            enemy.velocity = force;
-            yield return new WaitForSeconds(.3f);
-
-            enemy.velocity = new Vector2();
-        }
-
-    }
-
+   
     private void SetAnimFloat(Vector2 setVector)
     {
         anima.SetFloat("moveX", setVector.x);
@@ -132,4 +132,20 @@ public class Ball : Enemy
             }
         }
     }
+
+    private IEnumerator KnockCo(Rigidbody2D enemy)
+    {
+        if (enemy != null)
+        {
+            Vector2 forceDirection = enemy.transform.position - transform.position;
+            Vector2 force = forceDirection.normalized * thrust;
+
+            enemy.velocity = force;
+            yield return new WaitForSeconds(.3f);
+
+            enemy.velocity = new Vector2();
+        }
+
+    }
+
 }

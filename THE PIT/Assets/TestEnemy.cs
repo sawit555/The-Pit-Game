@@ -31,14 +31,15 @@ public class TestEnemy : Enemy
         currentState = EnemyState.idle;
         rd = GetComponent<Rigidbody2D>();
         anima = GetComponent<Animator>();
+        attack = false;
         
     }
 
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("cooling = "+cooling);
-        attackDistance();
+        
+        //attackDistance();
         checkDistance();
 
     }
@@ -59,6 +60,7 @@ public class TestEnemy : Enemy
         }
         else
         {
+            ChangState(EnemyState.idle);
             anima.SetBool("walk", false);
         }
         
@@ -72,6 +74,7 @@ public class TestEnemy : Enemy
         {
             cooling = false;
             timer = intimer;
+            Debug.Log("cooling = " + cooling);
         }
     }
 
@@ -79,10 +82,10 @@ public class TestEnemy : Enemy
     {
         timer = intimer;
         attack = true;
-
         anima.SetBool("walk", false);
         anima.SetBool("attack", true);
         Debug.Log("BOOOOM");
+        Debug.Log("Attack = " + attack);
         cooling = true;
 
     }
@@ -91,10 +94,12 @@ public class TestEnemy : Enemy
     {
         if (Vector3.Distance(target.position, transform.position) <= attackRadius)
         {
-            ChangState(EnemyState.attack);
-            if(currentState == EnemyState.attack && cooling == false)
+            ChangState(EnemyState.attack) ;
+            if (currentState == EnemyState.attack && cooling == false)
             {
                 Attack();
+                Debug.Log("cooling = " + cooling);
+                Debug.Log("Attack = " + attack);
             }
             if (cooling)
             {
@@ -107,7 +112,7 @@ public class TestEnemy : Enemy
         else
         {
             ChangState(EnemyState.walk);
-            //anima.SetBool("attack", false);
+            anima.SetBool("attack", false);
         }
 
     }
@@ -152,10 +157,10 @@ public class TestEnemy : Enemy
         }
     }
 
-    public void TriggerCooling()
-    {
-        cooling = true;
-    }
+    //public void TriggerCooling()
+    //{
+    //    cooling = true;
+    //}
 
 
 
