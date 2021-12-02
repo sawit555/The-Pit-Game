@@ -95,7 +95,6 @@ public class Ball : Enemy
             if (enemy != null)
             {
                 StartCoroutine(KnockCo(enemy));
-
             }
 
         }
