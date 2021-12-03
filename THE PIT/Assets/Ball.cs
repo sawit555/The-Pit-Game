@@ -82,21 +82,17 @@ public class Ball : Enemy
                 Debug.Log("Attack");
 
             }
-            else
-            {
-                canAttack += Time.deltaTime;
-            }
-        }
 
-
-        if (other.gameObject.tag == "Player")
-        {
             Rigidbody2D enemy = other.GetComponent<Rigidbody2D>();
             if (enemy != null)
             {
                 StartCoroutine(KnockCo(enemy));
             }
 
+            else
+            {
+                canAttack += Time.deltaTime;
+            }
         }
 
     }

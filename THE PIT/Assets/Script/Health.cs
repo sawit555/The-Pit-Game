@@ -17,7 +17,7 @@ public class Health : MonoBehaviour
         //currenthealth = Maxhealth;
     }
 
-    // Update is called once per frame
+    // Update is called once per framek
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.K))

@@ -10,14 +10,14 @@ public class Testscripy : MonoBehaviour
     bool isCount = false;
     void Start()
     {
-        some.SetActive(false);
+        some.SetActive(true);
        
     }
 
     // Update is called once per frame
     void Update()
     {
-        test = GameObject.FindGameObjectsWithTag("Enemy");
+        test = GameObject.FindGameObjectsWithTag("EnemyQ1");
         enemyCount = test.Length;
 
         if(enemyCount <= 0)
@@ -26,14 +26,14 @@ public class Testscripy : MonoBehaviour
             isCount = true;
             if (isCount)
             {
-                some.SetActive(true);
+                some.SetActive(false);
                 Debug.Log("Congrat");
             }
         }
         else
         {
 
-            isCount = false;
+            isCount = true;
         }
     }
 }

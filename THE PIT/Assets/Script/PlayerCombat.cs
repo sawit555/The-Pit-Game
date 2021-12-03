@@ -19,8 +19,7 @@ public class PlayerCombat : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-
-        if(other.gameObject.tag == "Enemy")
+        if (other.gameObject.layer == LayerMask.NameToLayer("Enemy"))
         {
             Enemy enemyHp;
             enemyHp = other.gameObject.GetComponent<Enemy>();
