@@ -6,6 +6,12 @@ TagManager:
   tags:
   - Enemy
   - EnemyQ1
+  - Timer
+  - txtShow
+  - OvertimePlatform
+  - Platform
+  - Door
+  - Dummy
   layers:
   - Default
   - TransparentFX

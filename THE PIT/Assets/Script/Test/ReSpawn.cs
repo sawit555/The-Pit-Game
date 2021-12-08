@@ -10,7 +10,7 @@ public class ReSpawn : MonoBehaviour
     public string sceneName;
 
     public static bool readyDie = false;
-    public ReSpawn instance;
+    ReSpawn instance;
 
     private void Awake()
     {
