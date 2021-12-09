@@ -12,6 +12,7 @@ TagManager:
   - Platform
   - Door
   - Dummy
+  - Sigh
   layers:
   - Default
   - TransparentFX

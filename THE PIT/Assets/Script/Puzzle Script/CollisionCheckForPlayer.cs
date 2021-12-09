@@ -10,6 +10,7 @@ public class CollisionCheckForPlayer : MonoBehaviour
     public static bool timerActive = false;
     public static bool overtimeActive = false;
     public static bool stage3Active = false;
+    public static bool signActive = false;
 
     Rigidbody2D rd;
     Timer timer;
@@ -51,6 +52,11 @@ public class CollisionCheckForPlayer : MonoBehaviour
             stage3Active = true;
             print("Stage3 Enter");
         }
+        if(other.gameObject.tag == "Sigh")
+        {
+            signActive = true;
+        }
+        
 
 
     }
@@ -69,6 +75,11 @@ public class CollisionCheckForPlayer : MonoBehaviour
         {
             stage3Active = false;
             print("Stage3 Out");
+        }
+
+        if (other.gameObject.tag == "Sigh")
+        {
+            signActive = false;
         }
 
     }

@@ -13,6 +13,8 @@ public class Testscripy : MonoBehaviour
     public int dummyCountUpdate;
     bool isCount = false;
 
+    bool inFlied;
+
 
     private ReSpawn respawn;
     void Start()
@@ -36,26 +38,49 @@ public class Testscripy : MonoBehaviour
         dummyCountUpdate = dummy.Length;
         enemyCount = test.Length;
 
-        if (enemyCount <= 0)
+        if (inFlied)
         {
-            Debug.Log("Congrat1");
-            isCount = true;
-            if (isCount)
+            if (enemyCount <= 0)
             {
-                some.SetActive(false);
                 Debug.Log("Congrat");
+                isCount = true;
+                if (isCount)
+                {
+                    some.SetActive(false);
+                    Debug.Log("Congrat");
+                }
+            }
+            if (dummyCountUpdate < dummyCount)
+            {
+                ReSpawn.readyDie = true;
+                Debug.Log("Wrong Enemy");
+                player.SetActive(false);
+                //if(ReSpawn.readyDie == true)
+                //{
+                //    dummyCount = dummyCountUpdate;
+                //}
+            }
+            else
+            {
+                ReSpawn.readyDie = false;
+                isCount = true;
             }
         }
-        if(dummyCountUpdate < dummyCount)
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.gameObject.tag == "Player")
         {
-            ReSpawn.readyDie = true;
-            Debug.Log("Wrong Enemy");
-            player.SetActive(false);
+            inFlied = true;
         }
-        else
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if(other.gameObject.tag == "Player")
         {
-            ReSpawn.readyDie = false;
-            isCount = true;
+            inFlied = false;
         }
     }
 }
