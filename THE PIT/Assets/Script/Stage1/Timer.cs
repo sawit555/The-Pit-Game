@@ -32,21 +32,25 @@ public class Timer : MonoBehaviour
 
     void Update()
     {
-       
+
         if (CollisionCheckForPlayer.timerActive)
         {
             timeStart();
-            if(CollisionCheckForPlayer.overtimeActive)
+            if (CollisionCheckForPlayer.overtimeActive)
             {
                 OverTime();
                 CollisionCheckForPlayer.overtimeActive = false;
             }
         }
 
-        if(timeLeft == 0)
+        if (timeLeft == 0)
         {
             ReSpawn.readyDie = true;
-            Destroy(player);
+            player.SetActive(false);
+            timeLeft = 5;
+        }
+        if (!CollisionCheckForPlayer.timerActive)
+        {
             timeLeft = 5;
         }
 

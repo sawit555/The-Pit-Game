@@ -56,6 +56,7 @@ public class CollisionCheckForPlayer : MonoBehaviour
         {
             signActive = true;
         }
+      
         
 
 

@@ -1733,6 +1733,9 @@ TextureImporter:
   - first:
       213: 3978083470574432274
     second: dungeon_576
+  - first:
+      213: -1180089109950936213
+    second: dungeon_577
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -13926,7 +13929,7 @@ TextureImporter:
         width: 16
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -13934,6 +13937,27 @@ TextureImporter:
       bones: []
       spriteID: 2103176f6ddf43730800000000000000
       internalID: 3978083470574432274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_577
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 48
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b4116f43b7f9fe0800000000000000
+      internalID: -1180089109950936213
       vertices: []
       indices: 
       edges: []
