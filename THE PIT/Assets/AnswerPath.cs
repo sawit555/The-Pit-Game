@@ -7,6 +7,7 @@ public class AnswerPath : MonoBehaviour
     public bool isCorrect = false;
     public StageManager quizManager;
     public EnemyHP bossHp;
+    public Health playerHp;
 
 
     public void Answer()
@@ -21,6 +22,7 @@ public class AnswerPath : MonoBehaviour
         {
             Debug.Log("Wrong Answer");
             quizManager.wrong();
+            playerHp.takedamage(35);
         }
     }
 

@@ -30,8 +30,8 @@ public class StageManager : MonoBehaviour
     }
     public void GameOver()
     {
-        Quizpanel.SetActive(false);
-        GoPanel.SetActive(true);
+        //Quizpanel.SetActive(false);
+ 
         ScoreTxt.text = score + "/" + total;
     }
     public void correct()
