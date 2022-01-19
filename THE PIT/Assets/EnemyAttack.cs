@@ -22,7 +22,7 @@ public class EnemyAttack : Enemy
     {
         if (other.gameObject.tag == "Player")
         {
-           
+            other.gameObject.GetComponent<Health>().takedamage(attackDamage);
         }
     }
 

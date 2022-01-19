@@ -55,7 +55,7 @@ public class PlayerMovement : MonoBehaviour
         change.x = Input.GetAxisRaw("Horizontal");
         change.y = Input.GetAxisRaw("Vertical");
 
-        if(Input.GetKeyDown(KeyCode.F) && currectstate != PlayerState.attack)
+        if(Input.GetKeyDown(KeyCode.Space) && currectstate != PlayerState.attack)
         {
             StartCoroutine(AttackCo());
         }

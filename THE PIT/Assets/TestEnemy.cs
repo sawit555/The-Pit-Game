@@ -24,13 +24,14 @@ public class TestEnemy : Enemy
     private void Awake()
     {
         intimer = timer;
+        anima = GetComponent<Animator>();
     }
     void Start()
     {
         target = GameObject.FindWithTag("Player").transform;
         currentState = EnemyState.idle;
         rd = GetComponent<Rigidbody2D>();
-        anima = GetComponent<Animator>();
+     
         attack = false;
         
     }
@@ -38,8 +39,8 @@ public class TestEnemy : Enemy
     // Update is called once per frame
     void Update()
     {
-        
-        //attackDistance();
+
+        attackDistance();
         checkDistance();
 
     }
@@ -70,7 +71,7 @@ public class TestEnemy : Enemy
     {
         timer -= Time.deltaTime;
         Debug.Log("COOLDOWN");
-        if (timer <= 0 && cooling && attack == true)
+        if (timer <= 0 && cooling && attack)
         {
             cooling = false;
             timer = intimer;
@@ -82,11 +83,11 @@ public class TestEnemy : Enemy
     {
         timer = intimer;
         attack = true;
-        anima.SetBool("walk", false);
         anima.SetBool("attack", true);
+        anima.SetBool("walk", false);
         Debug.Log("BOOOOM");
         Debug.Log("Attack = " + attack);
-        cooling = true;
+  
 
     }
 
@@ -94,12 +95,15 @@ public class TestEnemy : Enemy
     {
         if (Vector3.Distance(target.position, transform.position) <= attackRadius)
         {
-            ChangState(EnemyState.attack) ;
+            Debug.Log("Test");
+            ChangState(EnemyState.attack);
             if (currentState == EnemyState.attack && cooling == false)
             {
                 Attack();
+
                 Debug.Log("cooling = " + cooling);
                 Debug.Log("Attack = " + attack);
+                //TriggerCooling();
             }
             if (cooling)
             {
@@ -157,10 +161,10 @@ public class TestEnemy : Enemy
         }
     }
 
-    //public void TriggerCooling()
-    //{
-    //    cooling = true;
-    //}
+    public void TriggerCooling()
+    {
+        cooling = true;
+    }
 
 
 

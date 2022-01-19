@@ -3065,7 +3065,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &250828407
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3167,15 +3167,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 643c6e8a6bfeebd44b8d8e59efe6a423, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentState: 2
+  currentState: 0
   enemyName: Circle
   maxHp: 500
   speed: 3
   homePosition: {fileID: 0}
   target: {fileID: 5767829215907657724}
   chaseRadius: 2.5
-  attackRadius: 1.5
-  attackSpeed: 2
+  attackRadius: 1
+  attackSpeed: 1
   attackDamage: 20
   timer: 5
   rd: {fileID: 250828411}
@@ -6266,8 +6266,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   test:
   - {fileID: 0}
-  enemyCount: 0
+  dummy: []
   some: {fileID: 359722217}
+  player: {fileID: 0}
+  enemyCount: 0
+  dummyCount: 0
+  dummyCountUpdate: 0
 --- !u!4 &1850345422
 Transform:
   m_ObjectHideFlags: 0
@@ -6479,6 +6483,32 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7427879375158596003, guid: f734debb94d579e4ebbd925b4388b84a,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2279da7e48de78a459e79e61efe188b8,
+        type: 3}
+    - target: {fileID: 7427879375158596029, guid: f734debb94d579e4ebbd925b4388b84a,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 136.6109
+      objectReference: {fileID: 0}
+    - target: {fileID: 7427879375158596029, guid: f734debb94d579e4ebbd925b4388b84a,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 35.4209
+      objectReference: {fileID: 0}
+    - target: {fileID: 7427879375158596029, guid: f734debb94d579e4ebbd925b4388b84a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 243.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7427879375158596029, guid: f734debb94d579e4ebbd925b4388b84a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -480.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f734debb94d579e4ebbd925b4388b84a, type: 3}
 --- !u!1001 &8109616810815112745
@@ -6548,11 +6578,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 2341968122089345391, guid: bb955ee7a8415e44faa913c915f43053,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7804891020351742125, guid: bb955ee7a8415e44faa913c915f43053,
         type: 3}
       propertyPath: speed
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 7804891020351742125, guid: bb955ee7a8415e44faa913c915f43053,
+        type: 3}
+      propertyPath: startPosition
+      value: 
+      objectReference: {fileID: 11400000, guid: ac92ba802530d3e4b9a48a7d3ebf683c,
+        type: 2}
     - target: {fileID: 8109616810903592857, guid: bb955ee7a8415e44faa913c915f43053,
         type: 3}
       propertyPath: healtBar

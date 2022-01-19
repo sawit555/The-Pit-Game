@@ -1,18 +1,21 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AnswerScript : MonoBehaviour
+public class AnswerPath : MonoBehaviour
 {
     public bool isCorrect = false;
-    public QuizManager quizManager;
+    public StageManager quizManager;
+    public EnemyHP bossHp;
 
-   public void Answer()
+
+    public void Answer()
     {
-        if(isCorrect)
+        if (isCorrect)
         {
             Debug.Log("Correct Answer");
             quizManager.correct();
+            bossHp.takedamage(10);
         }
         else
         {
@@ -23,10 +26,10 @@ public class AnswerScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Player")
+        if(other.gameObject.tag == "Player")
         {
             Answer();
         }
-
+       
     }
 }
