@@ -1743,7 +1743,7 @@ TextureImporter:
         serializedVersion: 2
         x: 25
         y: 107
-        width: 41
+        width: 47
         height: 59
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1754,27 +1754,6 @@ TextureImporter:
       bones: []
       spriteID: 41176ea01d8403a60800000000000000
       internalID: 7651695829570711828
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Character_sheet_69
-      rect:
-        serializedVersion: 2
-        x: 59
-        y: 107
-        width: 13
-        height: 25
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5e8fdf83a00047960800000000000000
-      internalID: 7598698515186710757
       vertices: []
       indices: 
       edges: []

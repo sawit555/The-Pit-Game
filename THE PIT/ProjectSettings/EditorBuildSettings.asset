@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Question.unity
     guid: 3e552f4e6ad291446ae03fd43990ddb1
+  - enabled: 1
+    path: Assets/Scenes/Dungeon2BossRoom.unity
+    guid: 981e48d27221f364aa90ad111398afee
+  - enabled: 1
+    path: Assets/Scenes/Dungeon 2 Main.unity
+    guid: 16e3dd2d335b48a499838fd6b217f13e
   m_configObjects: {}
