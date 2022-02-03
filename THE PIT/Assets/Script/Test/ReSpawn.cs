@@ -9,9 +9,9 @@ public class ReSpawn : MonoBehaviour
     public CanvasGroup myGroup;
     public string sceneName;
 
+    public GameObject player;
     public static bool readyDie = false;
     ReSpawn instance;
-
     private void Awake()
     {
         instance = this;
@@ -55,6 +55,7 @@ public class ReSpawn : MonoBehaviour
     {
         if (readyDie)
         {
+            player.SetActive(false);
             Quiztaxdeduction.playerDie = false;
             CollisionCheckForPlayer.timerActive = false;
             CollisionCheckForPlayer.overtimeActive = false;

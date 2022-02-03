@@ -7,11 +7,19 @@ public class Health : MonoBehaviour
 {
     public Image healtBar;
     public float healtAmount = 100;
+    public bool hp0 = false;
 
     //public Slider healthslider;
     //public float Maxhealth;
     //public static float currenthealth;
     // Start is called before the first frame update
+    ReSpawn respawn;
+    Health instance;
+    private void Awake()
+    {
+        instance = this;
+    }
+
     void Start()
     {
         //currenthealth = Maxhealth;
@@ -20,20 +28,11 @@ public class Health : MonoBehaviour
     // Update is called once per framek
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.K))
-        {
+      
             if (healtAmount == 0)
             {
-                return;
+                ReSpawn.readyDie = true;
             }
-            else
-            {
-                takedamage(20);
-
-            }
-
-        }
-
         //healthslider.value = currenthealth / Maxhealth;
     }
 
