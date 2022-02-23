@@ -5,8 +5,19 @@ using UnityEngine;
 public class Switch : MonoBehaviour
 {
     public Animator ani;
-    public bool playerinrange;
+
+    bool playerinrange;
+    public static bool turnonsw;
+
+
+    Switch instance;
+
     // Start is called before the first frame update
+
+    private void Awake()
+    {
+        instance = this;
+    }
     void Start()
     {
         
@@ -18,17 +29,26 @@ public class Switch : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Z))
         {
             if (playerinrange)
-            ani.SetBool("trigger", true);
+            {
+                ani.SetBool("trigger", true);
+                turnonsw = true;
+                Debug.Log("turnonsw1");
+            }
+ 
         }
+
+     
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if(other.gameObject.tag == "Player")
         {
-            playerinrange = true;
-            Debug.Log("Enyer");
            
+                playerinrange = true;
+                Debug.Log("Enyer1");
+
+
         }
     }
 }

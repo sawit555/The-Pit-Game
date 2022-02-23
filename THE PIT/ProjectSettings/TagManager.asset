@@ -14,6 +14,8 @@ TagManager:
   - Dummy
   - Sigh
   - StopTimer
+  - Sw1
+  - Sw2
   layers:
   - Default
   - TransparentFX

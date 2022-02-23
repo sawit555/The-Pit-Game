@@ -499,10 +499,12 @@ SpriteAtlas:
   - {fileID: -3799963548835508319, guid: f3b09d0dbe4c50f43ab2a13c65dee348, type: 3}
   - {fileID: -6971126451320778321, guid: f3b09d0dbe4c50f43ab2a13c65dee348, type: 3}
   - {fileID: -8319976618808709436, guid: f3b09d0dbe4c50f43ab2a13c65dee348, type: 3}
+  - {fileID: 8587489931181684321, guid: f3b09d0dbe4c50f43ab2a13c65dee348, type: 3}
   - {fileID: -665708245686005083, guid: f3b09d0dbe4c50f43ab2a13c65dee348, type: 3}
   - {fileID: -3134815517496811680, guid: f3b09d0dbe4c50f43ab2a13c65dee348, type: 3}
   - {fileID: -4814435459868535205, guid: f3b09d0dbe4c50f43ab2a13c65dee348, type: 3}
   - {fileID: 4251581061347021264, guid: f3b09d0dbe4c50f43ab2a13c65dee348, type: 3}
+  - {fileID: 6277940986981369834, guid: f3b09d0dbe4c50f43ab2a13c65dee348, type: 3}
   - {fileID: 5751022647374519801, guid: f3b09d0dbe4c50f43ab2a13c65dee348, type: 3}
   - {fileID: -7847737013545531403, guid: f3b09d0dbe4c50f43ab2a13c65dee348, type: 3}
   - {fileID: -8315643332551706480, guid: f3b09d0dbe4c50f43ab2a13c65dee348, type: 3}
@@ -512,6 +514,7 @@ SpriteAtlas:
   - {fileID: -7326718804010544079, guid: f3b09d0dbe4c50f43ab2a13c65dee348, type: 3}
   - {fileID: -3693944467172596563, guid: f3b09d0dbe4c50f43ab2a13c65dee348, type: 3}
   - {fileID: 6878626841433405545, guid: f3b09d0dbe4c50f43ab2a13c65dee348, type: 3}
+  - {fileID: -4761974826967358885, guid: f3b09d0dbe4c50f43ab2a13c65dee348, type: 3}
   - {fileID: -8170982405424924705, guid: f3b09d0dbe4c50f43ab2a13c65dee348, type: 3}
   - {fileID: -3236130727297206427, guid: f3b09d0dbe4c50f43ab2a13c65dee348, type: 3}
   - {fileID: -5066928059869352152, guid: f3b09d0dbe4c50f43ab2a13c65dee348, type: 3}
@@ -1246,10 +1249,12 @@ SpriteAtlas:
   - outside_726
   - outside_730
   - outside_706
+  - outside_746
   - outside_184
   - outside_727
   - outside_737
   - outside_707
+  - outside_747
   - outside_185
   - outside_728
   - outside_736
@@ -1259,6 +1264,7 @@ SpriteAtlas:
   - outside_729
   - outside_735
   - outside_705
+  - outside_745
   - outside_187
   - outside_734
   - outside_702
